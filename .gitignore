@@ -1,0 +1,36 @@
+# dependencies
+node_modules
+
+# build
+dist
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.firebase/
+
+# coverage
+coverage
+
+# Cache directory
+.npm
+cypress
+.next
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env.local
+
+# webstorm
+.idea/
+yarn.lock
+
+# editors
+.vs
+.vscode
+.DS_Store
