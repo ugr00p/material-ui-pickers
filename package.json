@@ -65,7 +65,6 @@
     "build": "npm run build:typescript && npm run build:bundle && npm run build:copy",
     "build:analyze": "npm run build",
     "release": "npm run test && npm run build && yarn publish build",
-    "prepack": "npm run build",
     "lint": "tslint --project tsconfig.json"
   },
   "devDependencies": {
